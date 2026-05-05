@@ -1,29 +1,79 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head> 
-<meta charset="UTF-8"> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <title>Oliver Bourland | Workflow Specialist</title>
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        max-width: 800px;
-        margin: 60px auto;
-        line-height: 1.6;
-        color: #222;
+	body {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+		max-width: 720px;
+		margin: 0 auto;
+		padding: 40px 20px;
+		line-height: 1.65;
+		color: #1f2937;
+
+		background: 
+			linear-gradient(rgba(10, 20, 30, 0.6), rgba(10, 20, 30, 0.6)),
+			url('background.jpg');
+
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+
+		min-height: 100vh;
+	}
+
+    /* subtle content card */
+    .container {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(6px);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.05);
     }
+
     h1 {
-        font-size: 28px;
-        margin-bottom: 5px;
+        font-size: 26px;
+        margin-bottom: 4px;
+        letter-spacing: 0.2px;
     }
-    h2 {
-        margin-top: 30px;
-        border-bottom: 2px solid #ddd;
-        padding-bottom: 5px;
-        font-size: 18px;
-    }
+
     .subtitle {
-        color: #666;
+        color: #0f172a;
         margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        margin-top: 28px;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 6px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1e3a5f;
+    }
+
+    /* mobile optimization */
+    @media (max-width: 600px) {
+        body {
+            padding: 20px 14px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 14px;
+        }
     }
 </style>
 </head>
@@ -58,4 +108,3 @@ This closed the validation gap, aligned proofing with real output, and eliminate
 
 </body>
 </html>
-<!-- trigger rebuild -->
