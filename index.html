@@ -36,25 +36,49 @@
         font-size: 26px;
         margin-bottom: 4px;
         letter-spacing: 0.2px;
+        font-weight: 800;
+        color: #1e3a5f;
     }
 
     .subtitle {
         color: #0f172a;
         margin-bottom: 20px;
         font-size: 15px;
+        font-weight: 600;
+        font-style: italic;
     }
 
     p {
         font-size: 15px;
+        font-weight: 500;
     }
 
     h2 {
         margin-top: 28px;
-        border-bottom: 1px solid #e5e7eb;
+        border-bottom: 1px solid #ffffff;
         padding-bottom: 6px;
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 20px;
+        font-weight: 800;
         color: #1e3a5f;
+    }
+
+    .image-container {
+        margin: 24px 0;
+        text-align: center;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .image-caption {
+        font-size: 13px;
+        color: #6b7280;
+        margin-top: 8px;
+        font-style: italic;
     }
 
     /* mobile optimization */
@@ -96,6 +120,11 @@ This improved speed, accuracy, and repeatability while eliminating dependence on
 The initiative was self-driven, stemming from a curiosity to challenge existing processes and uncover more efficient solutions.
 </p>
 
+<div class="image-container">
+    <img src="customRibbon.png" alt="Custom Excel Ribbon Interface">
+    <div class="image-caption">Custom Excel Ribbon with automated macro controls</div>
+</div>
+
 <h2>Workflow Improvement – Proofing & De-Imposition</h2>
 <p>
 Resolved a critical proofing gap after a $12,000 production loss caused by a mismatch between client proofs and imposed press files.
@@ -105,6 +134,11 @@ Developed a custom de-imposition application that converts imposed press files b
 allowing the exact production file to be reviewed prior to print.
 This closed the validation gap, aligned proofing with real output, and eliminated a class of high-cost errors from the workflow.
 </p>
+
+<div class="image-container">
+    <img src="Deimpose.png" alt="De-imposition Application">
+    <div class="image-caption">De-imposition mini-app for creating proof files from imposed press files</div>
+</div>
 
 </body>
 </html>
